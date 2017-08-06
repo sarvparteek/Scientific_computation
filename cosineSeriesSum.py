@@ -33,7 +33,7 @@ def cosEstimate(x,sigDigits):
     return res,iter
 
 num = 0.3*math.pi
-avList,iter = cosEstimate(num,9)
+avList,iter = cosEstimate(num,8)
 
 #Plot results
 tvList = [num] * (iter+1) #For comparison with estimation using Maclaurin series
