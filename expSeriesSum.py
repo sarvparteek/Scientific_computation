@@ -17,6 +17,7 @@ def inverseExpSum(x,tv,iter):
     etList = []
     eaList = []
     avList = []
+    termList = []
     sum = 0.0
     pv = 0.0
     for i in range(iter):
@@ -28,14 +29,16 @@ def inverseExpSum(x,tv,iter):
         etList += [et]
         eaList += [ea]
         avList += [av]
+        termList += [av-pv]
         pv = av # for next iteration
-    return etList,eaList,avList
+    return etList,eaList,avList,termList
 
 def directExpSum(x,tv,iter):
     print("\n######### Direct summation for e^{} ##############".format(-1*x))
     etList = []
     eaList = []
     avList = []
+    termList = []
     sum = 0.0
     pv = 0.0
     for i in range(iter):
@@ -47,13 +50,14 @@ def directExpSum(x,tv,iter):
         etList += [et]
         eaList += [ea]
         avList += [av]
+        termList += [av-pv]
         pv = av # for next iteration
-    return etList,eaList,avList
+    return etList,eaList,avList,termList
 
 tv = 6.737947* 10**-3
 iter = 20
-etInv, eaInv, avInv = inverseExpSum(5,tv,iter)
-etDir, eaDir, avDir = directExpSum(5,tv,iter)
+etInv, eaInv, avInv, termInv = inverseExpSum(5,tv,iter)
+etDir, eaDir, avDir, termDir = directExpSum(5,tv,iter)
 
 # Plot true errors for each
 iterations = list(range(iter))
@@ -86,5 +90,15 @@ pl.legend(loc = 'upper right')
 pl.xlabel('Iterations')
 pl.ylabel('Computed value of exp')
 pl.title('Progression of computed values by Direct & Inverse exp sum')
+pl.grid(True)
+
+#Plot value of term per iteration for each
+pl.figure(4)
+pl.plot(iterations,termInv,'r',label='InverseExpSum')
+pl.plot(iterations,termDir,'b',label='DirectExpSum')
+pl.legend(loc = 'upper right')
+pl.xlabel('Iterations')
+pl.ylabel('Computed value on current iteration')
+pl.title('Comparison of value computed per term')
 pl.grid(True)
 pl.show()
