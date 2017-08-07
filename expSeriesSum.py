@@ -12,14 +12,14 @@ import numpy as np
 import pylab as pl
 import _error
 
-def inverseExpSum(x,tv):
+def inverseExpSum(x,tv,iter):
     print("\n######### Inverse summation for e^{} ##############".format(-1*x))
     etList = []
     eaList = []
     avList = []
     sum = 0.0
     pv = 0.0
-    for i in range(0,30):
+    for i in range(iter):
         sum += x**i/math.factorial(i)
         av = 1/sum
         et = _error.et(tv,av)
@@ -31,14 +31,14 @@ def inverseExpSum(x,tv):
         pv = av # for next iteration
     return etList,eaList,avList
 
-def directExpSum(x,tv):
+def directExpSum(x,tv,iter):
     print("\n######### Direct summation for e^{} ##############".format(-1*x))
     etList = []
     eaList = []
     avList = []
     sum = 0.0
     pv = 0.0
-    for i in range(0,30):
+    for i in range(iter):
         sum += (-1)**i * x**i/math.factorial(i)
         av = sum
         et = _error.et(tv,av)
@@ -51,11 +51,12 @@ def directExpSum(x,tv):
     return etList,eaList,avList
 
 tv = 6.737947* 10**-3
-etInv, eaInv, avInv = inverseExpSum(5,tv)
-etDir, eaDir, avDir = directExpSum(5,tv)
+iter = 20
+etInv, eaInv, avInv = inverseExpSum(5,tv,iter)
+etDir, eaDir, avDir = directExpSum(5,tv,iter)
 
 # Plot true errors for each
-iterations = list(range(30))
+iterations = list(range(iter))
 pl.figure(1)
 pl.plot(iterations, etInv, 'r', label = 'InverseExpSum')
 pl.plot(iterations, etDir, 'b', label = 'DirectExpSum')
@@ -81,6 +82,7 @@ pl.figure(3)
 pl.plot(iterations,tvList,'m',label = 'True value')
 pl.plot(iterations,avInv, 'r', label = 'InverseExpSum')
 pl.plot(iterations,avDir, 'b', label = 'DirectExpSum')
+pl.legend(loc = 'upper right')
 pl.xlabel('Iterations')
 pl.ylabel('Computed value of exp')
 pl.title('Progression of computed values by Direct & Inverse exp sum')
