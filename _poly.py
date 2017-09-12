@@ -26,8 +26,8 @@ def defl(p, t):
     #p: polynomial
     #t: estimate root from monomial (x - t)
     n = len(p) - 1
-    r = float(p[n])
-    q = np.array(p[:-1], dtype=float)
+    r = complex(p[n])
+    q = np.array(p[:-1], dtype= complex)
     for i in range(n-1, -1, -1):
         s = p[i]
         q[i] = r
