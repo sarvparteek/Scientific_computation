@@ -12,12 +12,16 @@ import math, cmath, numpy as np
 
 def quadratic(a, b, c):
     "returns the two roots for quadratic equation a*x**2 + b*x + c"
-    disc = b*b - 4*a*c
-    irad = cmath.sqrt(disc)
-    rad = irad if irad.imag else irad.real
-    d1, d2 = b + rad, b - rad
-    xr1 = -2*c / (d1 if abs(d1) > abs(d2) else d2)
-    xr2 = -2*c / (d2 if abs(d1) > abs(d2) else d1)
+    if c == 0:
+        xr1,xr2 = 0, -b/a
+    else:
+        disc = b*b - 4*a*c
+        irad = cmath.sqrt(disc)
+        rad = irad if irad.imag else irad.real
+        d1, d2 = b + rad, b - rad
+        xr1 = -2*c / (d1 if abs(d1) > abs(d2) else d2)
+        xr2 = -2*c / (d2 if abs(d1) > abs(d2) else d1)
+
     return xr1, xr2
 #end quadratic()
 

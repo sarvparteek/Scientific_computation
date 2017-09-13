@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77e6df3a-84e4-4523-88ad-117ae7523a99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_bairstow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_muller.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_poly.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polyRootSearch1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polyRootSearch2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polyRootSearch3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/polyRootSearch4.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot.png" afterPath="$PROJECT_DIR$/plot.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_muller.py" afterPath="$PROJECT_DIR$/_muller.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +30,7 @@
     <SUITE FILE_PATH="coverage/Scientific_computation$_poly.coverage" NAME="_poly Coverage Results" MODIFIED="1505091190866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Scientific_computation$polyRootSearch2.coverage" NAME="polyRootSearch2 Coverage Results" MODIFIED="1505192410853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Scientific_computation$polyRootSearch4.coverage" NAME="polyRootSearch4 Coverage Results" MODIFIED="1505194958539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Scientific_computation$polyRootSearch1.coverage" NAME="polyRootSearch1 Coverage Results" MODIFIED="1505191586729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Scientific_computation$polyRootSearch1.coverage" NAME="polyRootSearch1 Coverage Results" MODIFIED="1505269033478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Scientific_computation$ex_3_2.coverage" NAME="ex-3.2 Coverage Results" MODIFIED="1502061970903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Harrisburg University/CISC 600-Scientific Computing 1/Topic 3" />
     <SUITE FILE_PATH="coverage/Scientific_computation$lnTaylorExpansion.coverage" NAME="lnTaylorExpansion Coverage Results" MODIFIED="1503450672128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -46,8 +40,8 @@
       <file leaf-file-name="_muller.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_muller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-364">
-              <caret line="13" column="67" lean-forward="false" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+            <state relative-caret-position="425">
+              <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -65,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="polyRootSearch4.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="polyRootSearch4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polyRootSearch4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="391">
+              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
               <folding>
                 <element signature="e#186#217#0" expanded="true" />
               </folding>
@@ -111,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="polyRootSearch1.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="polyRootSearch1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/polyRootSearch1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="186">
+              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding>
                 <element signature="e#184#215#0" expanded="true" />
               </folding>
@@ -126,18 +120,8 @@
       <file leaf-file-name="_poly.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_poly.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_plot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_plot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="68">
+              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -183,10 +167,10 @@
         <option value="$PROJECT_DIR$/polyRootSearch2.py" />
         <option value="$PROJECT_DIR$/poly2_b.py" />
         <option value="$PROJECT_DIR$/polyRootSearch4.py" />
-        <option value="$PROJECT_DIR$/polyRootSearch1.py" />
-        <option value="$PROJECT_DIR$/_muller.py" />
         <option value="$PROJECT_DIR$/_poly.py" />
         <option value="$PROJECT_DIR$/polyRootSearch3.py" />
+        <option value="$PROJECT_DIR$/_muller.py" />
+        <option value="$PROJECT_DIR$/polyRootSearch1.py" />
       </list>
     </option>
   </component>
@@ -259,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.polyRootSearch4">
+  <component name="RunManager" selected="Python.polyRootSearch1">
     <configuration default="false" name="polyRootSearch1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -512,10 +496,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.polyRootSearch4" />
-        <item index="1" class="java.lang.String" itemvalue="Python.polyRootSearch3" />
-        <item index="2" class="java.lang.String" itemvalue="Python.polyRootSearch2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.polyRootSearch1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.polyRootSearch1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.polyRootSearch4" />
+        <item index="2" class="java.lang.String" itemvalue="Python.polyRootSearch3" />
+        <item index="3" class="java.lang.String" itemvalue="Python.polyRootSearch2" />
         <item index="4" class="java.lang.String" itemvalue="Python.poly2_b" />
       </list>
     </recent_temporary>
@@ -537,7 +521,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12260128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -574,20 +558,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cosineSeriesSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_error.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/OneDrive/Harrisburg University/CISC 600-Scientific Computing 1/Topic 3/ex-3.2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -627,6 +597,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -732,6 +703,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -911,32 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polyRootSearch1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="e#184#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_muller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
-          <caret line="13" column="67" lean-forward="false" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_poly.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/polyRootSearch3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -955,6 +901,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/polyRootSearch4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <element signature="e#186#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_poly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_muller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/polyRootSearch2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -965,12 +937,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polyRootSearch4.py">
+    <entry file="file://$PROJECT_DIR$/ex-circuit-8.3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/Harrisburg University/CISC 600-Scientific Computing 1/Topic 6/ex-circuit-8.3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polyRootSearch1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding>
-            <element signature="e#186#217#0" expanded="true" />
+            <element signature="e#184#215#0" expanded="true" />
           </folding>
         </state>
       </provider>
